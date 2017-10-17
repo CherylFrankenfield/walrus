@@ -1,0 +1,38 @@
+.clickable {
+  cursor: pointer;
+  color: salmon;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+#initially-hidden {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#hidden-panda {
+  display: none;
+}
+
+.clickable-tiger {
+  cursor: pointer;
+  color: navy;
+}
+
+.clickable-tiger:hover {
+  text-decoration: underline;
+}
+
+.clickable-panda {
+  cursor: pointer;
+  color: purple;
+}
+
+.clickable-panda:hover {
+  text-decoration: underline;
+}
