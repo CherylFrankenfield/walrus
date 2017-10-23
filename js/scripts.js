@@ -1,16 +1,25 @@
 $ (document).ready(function() {
-  $(".clickable").click(function() {
-    $("#initially-showing").toggle();
-    $("#initially-hidden").toggle();
-  });
+  var animals = ["walrus", "tiger", "panda"]
+    animals.forEach(function(animal) {
+      $(".clickable-" + animal).click(function() {
+        $("#showing-" + animal).toggle();
+        $("#hidden-" + animal).toggle();
 
-  $(".clickable-tiger").click(function(){
-    $(".showing").fadeToggle();
-    $(".hidden").fadeToggle();
+    });
   });
-
-  $(".clickable-panda").click(function() {
-    $("#showing-panda").slideToggle();
-    $("#hidden-panda").slideToggle();
-  });
+    //
+  // $(".clickable").click(function() {
+  //   $("#showing-walrus").toggle();
+  //   $("#hidden-walrus").toggle();
+  // });
+  //
+  // $(".clickable-tiger").click(function(){
+  //   $("#showing-tiger").fadeToggle();
+  //   $("#hidden-tiger").fadeToggle();
+  // });
+  //
+  // $(".clickable-panda").click(function() {
+  //   $("#showing-panda").slideToggle();
+  //   $("#hidden-panda").slideToggle();
+  // });
 });

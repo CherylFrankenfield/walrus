@@ -7,15 +7,7 @@
   text-decoration: underline;
 }
 
-#initially-hidden {
-  display: none;
-}
-
-.hidden {
-  display: none;
-}
-
-#hidden-panda {
+#hidden-walrus, #hidden-tiger, #hidden-panda {
   display: none;
 }
 
